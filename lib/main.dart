@@ -1,10 +1,11 @@
 import 'package:appi_exam/widgets/MyButton.dart';
+import 'package:appi_exam/widgets/Pregunta1AP.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(
     new MaterialApp(
-      home: MyButton(), //MyApp1, MyTextField, MyApp, MyButton
+      home: Pregunta1AP(), //MyApp1, MyTextField, MyApp, MyButton
     ),
   );
 }

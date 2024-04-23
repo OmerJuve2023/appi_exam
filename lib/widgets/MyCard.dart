@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class MyCard extends StatelessWidget {
-  final Widget? title;
+  final String? title;
 
-  final Widget? icon;
+  final IconData? icon;
 
   MyCard({this.title, this.icon});
 
@@ -13,8 +13,11 @@ class MyCard extends StatelessWidget {
       child: Column(
         children: <Widget>[
           ListTile(
-            title: title!,
-            leading: icon!,
+            title: Text(title!),
+            leading: Icon(
+              icon!,
+            ),
+            style: ListTileStyle.drawer,
           ),
         ],
       ),
