@@ -1,4 +1,5 @@
 import 'package:appi_exam/widgets/MyCard.dart';
+import 'package:appi_exam/widgets/StyledText.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -11,16 +12,7 @@ class _Pregunta1AP extends State<Pregunta1AP> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: const Text(
-            "App Producto Ap",
-            style: TextStyle(
-              fontSize: 30.0,
-              color: Colors.white,
-            ),
-          ),
-          backgroundColor: Colors.lightBlue,
-        ),
+        appBar: AppBar(title: const StyledText("AppEProductoAP")),
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
