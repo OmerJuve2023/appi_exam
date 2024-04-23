@@ -1,5 +1,5 @@
 import 'package:appi_exam/widgets/MyButton.dart';
-import 'package:appi_exam/widgets/Pregunta1AP.dart';
+import 'package:appi_exam/preguntas/Pregunta1AP.dart';
 import 'package:flutter/material.dart';
 
 void main() {
